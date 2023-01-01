@@ -1,0 +1,36 @@
+/*
+ * Copyright Simpolor
+ */
+
+/* ---- pure-button ---- */
+.pureness-button-double {
+    padding: 1em 2em;
+}
+
+.pureness-button-triple {
+    padding: 1.5em 3em;
+}
+
+.pureness-button-quad {
+    padding: 2em 4em;
+}
+
+.pureness-button-125p {
+    font-size: 125%;
+}
+
+.pureness-button-150p {
+    font-size: 150%;
+}
+
+.pureness-button-175p {
+    font-size: 175%;
+}
+
+.pureness-button-200p {
+    font-size: 200%;
+}
+
+.pureness-radius-button {
+    border-radius: 10px;
+}

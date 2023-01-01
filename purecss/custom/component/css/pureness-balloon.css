@@ -1,0 +1,51 @@
+/*
+ * Copyright Simpolor
+ */
+
+/* ---- pure-balloon ---- */
+.pureness-balloon {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 10px;
+    padding: 10px;
+    background: #E0E0E0;
+    border-radius: 2px;
+}
+
+.pureness-balloon-top:after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: -10px;
+    border-bottom: 10px solid #E0E0E0;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+}
+
+.pureness-balloon-left:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-top: 7px solid transparent;
+    border-right: 10px solid #E0E0E0;
+    border-bottom: 7px solid transparent;
+}
+.pureness-balloon-right:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    border-top: 7px solid transparent;
+    border-left: 10px solid #E0E0E0;
+    border-bottom: 7px solid transparent;
+}
+.pureness-balloon-bottom:after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    bottom: -10px;
+    border-top: 10px solid #E0E0E0;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+}

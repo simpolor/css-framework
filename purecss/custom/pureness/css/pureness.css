@@ -1,0 +1,143 @@
+/*
+ * Copyright Simpolor
+ */
+
+/* ---- common ---- */
+.pureness-center { margin: 0 auto; }
+.pureness-img-responsive { max-width: 100%; height: auto; }
+
+/* ---- form ---- */
+.pureness-form-title {
+    font-weight: bold;
+    font-size: large;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.pureness-form-group .pure-g {
+    line-height: 37px; !important;
+    padding: 5px 0
+}
+.pureness-form-group input[type=text], .pureness-form-group button {
+    height: 37px; !important;
+}
+.pureness-form-none input[type=text], .pureness-form-none button {
+    box-shadow: inset 0px 0px 0px #ddd !important;
+    border-radius: 0px !important;
+    border: 1px solid #ccc !important;
+}
+.pureness-form-full input, .pureness-form-full button { width: 100%; }
+
+/* ---- button ---- */
+.pureness-button-xsmall { font-size: 70%; }
+.pureness-button-small { font-size: 85%; }
+.pureness-button-large { font-size: 110%; }
+.pureness-button-xlarge { font-size: 125%; }
+
+
+/* ---- display ---- */
+.pureness-display-none { display: none; }
+
+
+/* ---- align ---- */
+.pureness-txt-center { text-align: center; }
+.pureness-txt-left { text-align: left; }
+.pureness-txt-right { text-align: right; }
+
+.pureness-vrt-top { vertical-align: top; }
+.pureness-vrt-middle { vertical-align: middle; }
+.pureness-vrt-bottom { vertical-align: bottom; }
+
+
+/* ---- width ---- */
+.pureness-wd-5 { width: 5px; }
+.pureness-wd-10 { width: 10px; }
+.pureness-wd-15 { width: 15px; }
+.pureness-wd-20 { width: 20px; }
+
+.pureness-wd-5p { width: 5%; }
+.pureness-wd-10p { width: 10%; }
+.pureness-wd-15p { width: 15%; }
+.pureness-wd-20p { width: 20%; }
+.pureness-wd-25p { width: 25%; }
+.pureness-wd-30p { width: 30%; }
+.pureness-wd-35p { width: 35%; }
+.pureness-wd-40p { width: 40%; }
+.pureness-wd-45p { width: 45%; }
+.pureness-wd-50p { width: 50%; }
+.pureness-wd-55p { width: 55%; }
+.pureness-wd-60p { width: 60%; }
+.pureness-wd-65p { width: 65%; }
+.pureness-wd-70p { width: 70%; }
+.pureness-wd-75p { width: 75%; }
+.pureness-wd-80p { width: 80%; }
+.pureness-wd-85p { width: 85%; }
+.pureness-wd-90p { width: 90%; }
+.pureness-wd-95p { width: 95%; }
+.pureness-wd-100p { width: 100%; }
+
+
+/* ---- height ---- */
+.pureness-ht-5 { height: 5px; }
+.pureness-ht-10 { height: 10px; }
+.pureness-ht-15 { height: 15px; }
+.pureness-ht-20 { height: 20px; }
+.pureness-ht-25 { height: 25px; }
+.pureness-ht-30 { height: 30px; }
+.pureness-ht-35 { height: 35px; }
+.pureness-ht-40 { height: 40px; }
+.pureness-ht-45 { height: 45px; }
+.pureness-ht-50 { height: 50px; }
+
+
+/* ---- margin ---- */
+.pureness-mg-5 { margin: 5px; }
+.pureness-mg-10 { margin: 10px; }
+.pureness-mg-15 { margin: 15px; }
+.pureness-mg-20 { margin: 20px; }
+
+.pureness-mt-5 { margin-top: 5px; }
+.pureness-mt-10 { margin-top: 10px; }
+.pureness-mt-15 { margin-top: 15px; }
+.pureness-mt-20 { margin-top: 20px; }
+
+.pureness-mb-5 { margin-bottom: 5px; }
+.pureness-mb-10 { margin-bottom: 10px; }
+.pureness-mb-15 { margin-bottom: 15px; }
+.pureness-mb-20 { margin-bottom: 20px; }
+
+.pureness-ml-5 { margin-left: 5px; }
+.pureness-ml-10 { margin-left: 10px; }
+.pureness-ml-15 { margin-left: 15px; }
+.pureness-ml-20 { margin-left: 20px; }
+
+.pureness-mr-5 { margin-right: 5px; }
+.pureness-mr-10 { margin-right: 10px; }
+.pureness-mr-15 { margin-right: 15px; }
+.pureness-mr-20 { margin-right: 20px; }
+
+
+/* ---- padding ---- */
+.pureness-pd-5 { padding: 5px; }
+.pureness-pd-10 { padding: 10px; }
+.pureness-pd-15 { padding: 15px; }
+.pureness-pd-20 { padding: 20px; }
+
+.pureness-pt-5 { padding-top: 5px; }
+.pureness-pt-10 { padding-top: 10px; }
+.pureness-pt-15 { padding-top: 15px; }
+.pureness-pt-20 { padding-top: 20px; }
+
+.pureness-pb-5 { padding-bottom: 5px; }
+.pureness-pb-10 { padding-bottom: 10px; }
+.pureness-pb-15 { padding-bottom: 15px; }
+.pureness-pb-20 { padding-bottom: 20px; }
+
+.pureness-pl-5 { padding-left: 5px; }
+.pureness-pl-10 { padding-left: 10px; }
+.pureness-pl-15 { padding-left: 15px; }
+.pureness-pl-20 { padding-left: 20px; }
+
+.pureness-pr-5 { padding-right: 5px; }
+.pureness-pr-10 { padding-right: 10px; }
+.pureness-pr-15 { padding-right: 15px; }
+.pureness-pr-20 { padding-right: 20px; }

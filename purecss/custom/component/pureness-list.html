@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>purecss.io</title>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+	<!--<![endif]-->
+	<link rel="stylesheet" href="css/pureness-list.css">
+	<style type="text/css">
+		.wrap{
+			padding: 24px 18px;
+		}
+		h1{
+			padding: 0.6em 0.6em;
+		}
+	</style>
+</head>
+<body>
+	<h1>Pureness List</h1>
+
+	<div class="wrap">
+		<h2>ul - li</h2>
+		<ul class="pureness-list">
+			<li >list</li>
+			<li>list</li>
+			<li>list</li>
+			<li>list</li>
+		</ul>
+
+		<hr />
+
+		<h2>ul - ol</h2>
+		<ol class="pureness-list">
+			<li>list</li>
+			<li>list</li>
+			<li>list</li>
+			<li>list</li>
+		</ol>
+
+		<hr />
+
+		<h2>ul - li - none</h2>
+		<ul class="pureness-list pureness-none-list">
+			<li>list</li>
+			<li>list</li>
+			<li>list</li>
+			<li>list</li>
+		</ul>
+
+		<hr />
+
+		<h2>tree</h2>
+		<ul class="pureness-list">
+			<li>list</li>
+			<li>list</li>
+			<li>list
+				<ul>
+					<li>list</li>
+					<li>list
+						<ul>
+							<li>list</li>
+							<li>list</li>
+							<li>list
+								<ul>
+									<li>list</li>
+									<li>list</li>
+									<li>list</li>
+								</ul>
+							</li>
+							<li>list</li>
+						</ul>
+					</li>
+					<li>list</li>
+				</ul>
+			</li>
+			<li>list</li>
+			<li>list</li>
+		</ul>
+	</div>
+
+</body>
+</html>

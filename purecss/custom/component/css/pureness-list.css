@@ -1,0 +1,14 @@
+/*
+ * Copyright Simpolor
+ */
+
+/* ---- pure-list ---- */
+.pureness-list {
+    padding-left: 15px;
+    line-height: 24px;
+}
+
+.pureness-none-list {
+    list-style: none;
+    padding: 0;
+}

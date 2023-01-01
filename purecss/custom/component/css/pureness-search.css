@@ -1,0 +1,27 @@
+/*
+ * Copyright Simpolor
+ */
+
+/* ---- pureness-search ---- */
+.pureness-search {
+    width: 100%;
+    border: 1px solid #cbcbcb;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+.pureness-search select, .pureness-search input, .pureness-search button {
+    height: 37px;
+}
+.pureness-search select {
+    float: right;
+    margin-right: 5px;
+    width: 90%;
+}
+.pureness-search input {
+    width: 100%;
+}
+.pureness-search button {
+    float: left;
+    margin-left: 5px;
+    width: 80%;
+}
